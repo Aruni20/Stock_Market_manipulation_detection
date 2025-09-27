@@ -1,0 +1,39 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / dependencies
+env/
+venv/
+*.env
+*.yml
+*.yaml
+*.lock
+*.egg-info/
+
+# Data files (you don't want to commit large CSVs)
+*.csv
+*.parquet
+*.h5
+*.db
+*.sqlite
+
+# Model checkpoints / saved models
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# MacOS / Linux / Windows specific
+.DS_Store
+Thumbs.db
